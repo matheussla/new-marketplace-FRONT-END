@@ -2,7 +2,7 @@
 
 
 :root {
-  --primary: #ECE7B4;
+  --primary: #F3EFCC;
   --secondary: #406343;
 }
 
@@ -17,6 +17,8 @@ body {
 input[type="text"],
 input[type="email"],
 input[type="password"],
+input[type="checkbox"],
+input[type="checkbox"]:disabled,
 input[type="text"]:disabled,
 input[type="email"]:disabled,
 input[type="password"]:disabled{
@@ -56,8 +58,17 @@ input[type="password"]:disabled{
   border-color: var(--secondary);
 }
 
-
-
 .boxH2 {
   color:#406343;
+}
+
+.checkbox1 {
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.checkbox2 {
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }

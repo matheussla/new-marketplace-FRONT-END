@@ -1,0 +1,12 @@
+.sidebar {
+  .footer {
+    height: 160px;
+    background-color: #ECE7B4;
+  }
+
+  .products {
+    height: calc(100% - 190px);
+    overflow: auto;
+    align-content: flex-start;
+  }
+}
