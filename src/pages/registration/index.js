@@ -1,15 +1,13 @@
-import Logo from '../../assets/logo.png';
 import Business from '../../assets/business.png';
+
+import Header from "../../components/Header";
 
 const Registration = () => {
   return (
     <div className="container-fluid h-100 bg-primary">
-      <div className="col-12">
-        <img src={Logo} width="200"/>
-      </div>
-      <br />
-      <br />
-      <br />
+     <br/>
+     <br/>
+     <br/>
       <div className="row">
         <div className="col-6 text-center my-auto">
           <img src={Business} />
