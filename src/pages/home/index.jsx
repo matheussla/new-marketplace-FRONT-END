@@ -1,15 +1,18 @@
 import Header from "../../components/Header";
 import "./style.scss";
 
-const OrderStatus = () => {
+const Home = () => {
   (
     <div className="container-fluid h-100 bg-primary">
     <Header />
      <br/>
      <br/>
      <br/>
+     <div className="principal-box">
+
+     </div>
     </div>
   )
 }
 
-export default OrderStatus;
+export default Home;
