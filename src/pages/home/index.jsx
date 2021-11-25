@@ -9,7 +9,8 @@ const Home = () => {
      <br/>
      <br/>
      <div className="principal-box">
-
+   
+     <br/>
      </div>
     </div>
   )

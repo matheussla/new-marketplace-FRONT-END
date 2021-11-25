@@ -8,6 +8,10 @@ const OrderStatus = () => {
      <br/>
      <br/>
      <br/>
+     <div className="principal-box">
+     <h2 className="text-center h2Text" >Status da ordem</h2>
+     <br/>
+     </div>
     </div>
   )
 }
