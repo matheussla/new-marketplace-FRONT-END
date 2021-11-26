@@ -3,8 +3,9 @@ import ReactDOM from "react-dom";
 import Routes from "./routes";
 import "./styles/global.scss";
 import { Provider } from 'react-redux';
-import store from './store';
-import Registration from './pages/registration'
+//import Registration from './pages/registration'
+import Home from './pages/home'
+import AddProduct from './pages/addProduct'
 
 // ReactDOM.render(
 //   <Provider store={store} >
@@ -15,7 +16,7 @@ import Registration from './pages/registration'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Registration />
+    <AddProduct />
   </React.StrictMode>,
   document.getElementById('root')
 );

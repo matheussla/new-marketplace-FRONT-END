@@ -1,6 +1,6 @@
 import { takeLatest, all, call, put } from 'redux-saga/effects';
 import types from './types';
-import api from '../../../services/api';
+import api from '../../../services/axiosApi';
 import { setPetshops, setPetshop } from './actions';
 
 export function* requestPetshops() {
