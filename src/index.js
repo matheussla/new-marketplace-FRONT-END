@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 //import Registration from './pages/registration'
 import Home from './pages/home'
 import AddProduct from './pages/addProduct'
+import OrderStatus from './pages/orderStatus'
 
 // ReactDOM.render(
 //   <Provider store={store} >
@@ -16,7 +17,7 @@ import AddProduct from './pages/addProduct'
 
 ReactDOM.render(
   <React.StrictMode>
-    <AddProduct />
+    <OrderStatus />
   </React.StrictMode>,
   document.getElementById('root')
 );
