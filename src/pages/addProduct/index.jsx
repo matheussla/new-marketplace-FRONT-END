@@ -1,8 +1,20 @@
 import Header from "../../components/Header";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { setProduct as setStateProduct } from "../../store/modules/shop/actions";
 import "./style.scss";
 import DefaultImage from "../../assets/default.jpg"
 
 function AddProduct() {
+  const dispatch = useDispatch();
+  const [product, setProduct] = useState({
+    external_id: new Date().getTime().toString(),
+    name: "",
+    type: "buyer",
+    email: "",
+    phone_numbers: "",
+    password: "",
+  });
   return (
     <div className="container-fluid h-100 bg-primary">
     {/* <Header /> */}

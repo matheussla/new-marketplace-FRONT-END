@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
 import Registration from "./pages/registration";
@@ -10,13 +10,14 @@ import OrderStatus  from "./pages/orderStatus";
 function Routes() {
   return (
     <>
-      <Router>
-      <Route path="/" exact component={Home} />
-      <Route path="/cadastro" exact component={Registration} />
-      <Route path="/checkout" exact component={Checkout} />
-      <Route path="/addProduct" exact component={AddProduct} />
-      <Route path="/orderStatus" exact component={OrderStatus} />
-      </Router>
+      <BrowserRouter>
+        <Sidebar />
+        <Route path="/" exact component={Home} />
+        <Route path="/registration" exact component={Registration} />
+        <Route path="/checkout" exact component={Checkout} />
+        <Route path="/addProduct" exact component={AddProduct} />
+        <Route path="/orderStatus" exact component={OrderStatus} />
+      </BrowserRouter>
     </>
   );
 }

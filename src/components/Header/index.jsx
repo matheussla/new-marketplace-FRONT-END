@@ -1,7 +1,7 @@
 import Logo from "../../assets/logo.png";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-function Header({ whiteVersion, hideCart }) {
+function Header({ hideCart }) {
   const { cart } = useSelector((state) => state.shop);
   const productsInCart = cart.length;
   const openDrawer = () => {
@@ -16,7 +16,7 @@ function Header({ whiteVersion, hideCart }) {
             <Link to="/">
               <img
                 src={Logo}
-                alt="PetFood"
+                alt="NewMarketplace"
                 className="img-responsive"
               />
             </Link>

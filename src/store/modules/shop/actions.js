@@ -4,6 +4,10 @@ export function setCustomer(customer) {
   return { type: types.SET_CUSTOMER, customer }
 }
 
+export function setProduct(product) {
+  return { type: types.SET_PRODUCT, product }
+}
+
 export function requestPetshops() {
   return { type: types.REQUEST_PETSHOPS }
 }
