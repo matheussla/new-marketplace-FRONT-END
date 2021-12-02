@@ -17,7 +17,7 @@ function AddProduct() {
   });
   return (
     <div className="container-fluid h-100 bg-primary">
-    {/* <Header /> */}
+    <Header hideCart hideNewAccount/>
      <br/>
      <br/>
      <br/>

@@ -11,7 +11,7 @@ function Checkout() {
     }, 0);
   return (
     <div className="h-100">
-      <Header />
+      <Header hideNewAccount/>
       <div className="container mt-4">
         <div className="row">
           <div className="col-6">

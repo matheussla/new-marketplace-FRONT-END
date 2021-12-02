@@ -46,7 +46,7 @@ const OrderStatus = () => {
   return (
     <div className="container-fluid h-100 bg-primary">
    
-          <h1>Header</h1>
+      <Header hideCart hideNewAccount/>
       <div class="container padding-bottom-3x mb-1">
       <div class="card mb-3">
         <div class="p-4 text-center text-white text-lg bg-dark rounded-top"><span class="text-uppercase">Tracking Order No - </span><span class="text-medium">001698653lp</span></div>

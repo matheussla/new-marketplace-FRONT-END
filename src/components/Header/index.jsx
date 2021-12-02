@@ -1,7 +1,8 @@
 import Logo from "../../assets/logo.png";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-function Header({ hideCart }) {
+import "./style.scss";
+function Header({ hideCart, hideNewAccount }) {
   const { cart } = useSelector((state) => state.shop);
   const productsInCart = cart.length;
   const openDrawer = () => {
@@ -18,11 +19,24 @@ function Header({ hideCart }) {
                 src={Logo}
                 alt="NewMarketplace"
                 className="img-responsive"
+                width="200px"
               />
             </Link>
           </header>
         </div>
         <div className="col-3  text-align-right d-flex justify-content-end align-items-center">
+        {!hideNewAccount && (
+            <button
+              className="btn btn-secondary ml-0 bt-space"
+              onClick={() => {
+                openDrawer();
+              }}
+            >
+              <span className="mdi mdi-cart pr-1"></span>
+              <b>Criar Conta/Login</b>
+            </button>
+          )}
+          
           {!hideCart && (
             <button
               className="btn btn-secondary ml-0"
