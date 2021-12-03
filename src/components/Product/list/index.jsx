@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { toggleCartProduct } from "../../../store/modules/shop/actions";
 import "./style.scss";
-function Product({ product }) {
+function ProductList({ product }) {
   const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.shop);
   const isOnShoppingCart =
@@ -42,4 +42,4 @@ function Product({ product }) {
   );
 }
 
-export default Product;
+export default ProductList;

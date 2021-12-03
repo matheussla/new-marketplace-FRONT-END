@@ -32,11 +32,6 @@ function Registration() {
           <div className="box col-6">
             <h2 className="text-center boxH2" >Cadastre-se</h2>
             <br />
-            <input type="checkbox" className="checkbox1" id="buyer" />
-            <label for="buyer">Comprador</label>
-            <input type="checkbox" className="checkbox2" id="seller"  />
-            <label for="seller">Vendedor</label>
-            <br />
               <input 
               type="text" 
               className="form-control form-control-lg mb-3"

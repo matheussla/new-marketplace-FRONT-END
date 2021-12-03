@@ -2,7 +2,7 @@ import Logo from "../../assets/logo.png";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import "./style.scss";
-function Header({ hideCart, hideNewAccount }) {
+function Header({ hideCart, hideTrack }) {
   const { cart } = useSelector((state) => state.shop);
   const productsInCart = cart.length;
   const openDrawer = () => {
@@ -24,17 +24,14 @@ function Header({ hideCart, hideNewAccount }) {
             </Link>
           </header>
         </div>
-        <div className="col-3  text-align-right d-flex justify-content-end align-items-center">
-        {!hideNewAccount && (
-            <button
+        <div className="col-3 text-align-right d-flex justify-content-end align-items-center">
+        {!hideTrack && (
+             <Link to="/orderStatus"
               className="btn btn-secondary ml-0 bt-space"
-              onClick={() => {
-                openDrawer();
-              }}
             >
-              <span className="mdi mdi-cart pr-1"></span>
-              <b>Criar Conta/Login</b>
-            </button>
+              <span className="mdi mdi-magnify pr-1"></span>
+              <b>Rastrear</b>
+            </Link>
           )}
           
           {!hideCart && (

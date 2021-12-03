@@ -1,9 +1,10 @@
 import Header from "../../components/Header";
+import SearchBar from "../../components/SearchBar";
 import "./style.scss";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const OrderStatus = () => {
+const OrderStatus = (trackId) => {
 
   const deliveryDate = () => {
     const date = new Date(Date.now());
@@ -46,8 +47,9 @@ const OrderStatus = () => {
   return (
     <div className="container-fluid h-100 bg-primary">
    
-      <Header hideCart hideNewAccount/>
+      <Header hideCart hideTrack/>
       <div class="container padding-bottom-3x mb-1">
+      <SearchBar/>
       <div class="card mb-3">
         <div class="p-4 text-center text-white text-lg bg-dark rounded-top"><span class="text-uppercase">Tracking Order No - </span><span class="text-medium">001698653lp</span></div>
         <div class="d-flex flex-wrap flex-sm-nowrap justify-content-between py-3 px-2 bg-secondary">
