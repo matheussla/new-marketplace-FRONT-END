@@ -29,7 +29,6 @@ export function requestShop(id) {
   return { type: types.REQUEST_SHOP, id }
 }
 
-
 export function setShop(shop) {
   return { type: types.SET_SHOP, shop }
 }

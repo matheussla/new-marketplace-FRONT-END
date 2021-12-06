@@ -1,9 +1,8 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import api from "../../services/api";
 import { useDispatch, useSelector } from "react-redux";
 import Header from "../../components/Header";
-import Product from "../../components/Product/PetShop";
+import ShopCard from "../../components/Product/shopCard";
 import { requestShop } from "../../store/modules/shop/actions";
 import "./style.scss";
 
@@ -32,11 +31,9 @@ function Shop() {
               <b>{shop.name}</b>
               <div className="shop-infos">
                 <span className="mdi mdi-star"></span>
-                <b>2,8</b>
+                <b>{shop.rank}</b>
                 <span className="mdi mdi-cash-usd-outline"></span>
                 <b>{shop.category}</b>
-                <span className="mdi mdi-crosshairs-gps"></span>
-                <b>2,9 km</b>
               </div>
               <label className="badge badge-primary">Frete Grátis</label>
             </div>
@@ -45,7 +42,7 @@ function Shop() {
               <div className="row">
                 {shop &&
                   shop.products.map((p) => (
-                    <Product key={p._id} produto={p} />
+                    <ShopCard key={p._id} produto={p} />
                   ))}
               </div>
             </div>

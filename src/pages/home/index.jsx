@@ -1,7 +1,17 @@
 import Header from "../../components/Header";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { requestShops } from "../../store/modules/shop/actions";
 import "./style.scss"
 
 function Home() {
+  const dispatch = useDispatch();
+  const { shops } = useSelector((state) => state.shops);
+
+  useEffect(() => {
+    dispatch(requestShops());
+  }, []);
+
   return (
     <div className="container-fluid h-100 bg-primary">
     <Header />
