@@ -1,0 +1,452 @@
+{
+  "shops": [
+    {
+      "name": "Razer",
+      "logo": "https://i.imgur.com/zxPLkIi.png",
+      "category": "$$$",
+      "rank": 1,
+      "products": [
+        {
+          "name": "PEDIGREE® FILHOTES RAÇAS MÉDIAS E GRANDES 1KG",
+          "cover": "https://i.imgur.com/06bVol3.png",
+          "price": 17.8,
+          "rating": 4.5,
+          "id": 0
+        },
+        {
+          "name": "PEDIGREE® Equilíbrio Natural Adulto 7+",
+          "cover": "https://i.imgur.com/kIvS3C3.png",
+          "price": 18.39,
+          "rating": 4.5,
+          "id": 1
+        },
+        {
+          "name": "PEDIGREE® ADULTO CARNE, FRANGO & CEREAIS",
+          "cover": "https://i.imgur.com/dv6yfGh.png",
+          "price": 16.79,
+          "rating": 4.5,
+          "id": 2
+        },
+        {
+          "name": "PEDIGREE® FILHOTES RAÇAS PEQUENAS",
+          "cover": "https://i.imgur.com/NUHWa7o.png",
+          "price": 16.79,
+          "rating": 4.5,
+          "id": 3
+        },
+        {
+          "name": "PEDIGREE® Sachê Adulto Raças Pequenas Sabor Frango ao Molho",
+          "cover": "https://i.imgur.com/pS58gXD.png",
+          "price": 2.29,
+          "rating": 5,
+          "id": 4
+        },
+        {
+          "name": "PEDIGREE® Lata Sabor Frango ao Molho",
+          "cover": "https://i.imgur.com/E7moJoP.png",
+          "price": 6.49,
+          "rating": 5,
+          "id": 5
+        },
+        {
+          "name": "PEDIGREE® BISCROK® Adulto Raças Pequenas",
+          "cover": "https://i.imgur.com/XSZIjZe.png",
+          "price": 26.99,
+          "rating": 4.5,
+          "id": 6
+        },
+        {
+          "name": "PEDIGREE® MARROBONE",
+          "cover": "https://i.imgur.com/WB3jHTV.png",
+          "price": 26.99,
+          "rating": 4.5,
+          "id": 7
+        },
+        {
+          "name": "PEDIGREE® DENTASTIX® Raças Pequenas",
+          "cover": "https://i.imgur.com/BfmXcDM.png",
+          "price": 6.97,
+          "rating": 4.5,
+          "id": 8
+        },
+        {
+          "name": "PEDIGREE® RODEO® Sabor Frango",
+          "cover": "https://i.imgur.com/0GLXKzz.png",
+          "price": 5.99,
+          "rating": 4.5,
+          "id": 9
+        }
+      ],
+      "id": 0
+    },
+    {
+      "name": "Dell",
+      "logo": "https://i.imgur.com/ekliJMK.png",
+      "category": "$$",
+      "rank": 2,
+      "products": [
+        {
+          "name": "Ultra Light Alimento Úmido Gatos",
+          "cover": "https://i.imgur.com/N0H11dl.png",
+          "price": 8.19,
+          "rating": 4.2,
+          "id": 0
+        },
+        {
+          "name": "Exigent Gatos 400g",
+          "cover": "https://i.imgur.com/wWFKPIY.png",
+          "price": 26.99,
+          "rating": 4.7,
+          "id": 1
+        },
+        {
+          "name": "Persa Kitten Gatos 1,5kg",
+          "cover": "https://i.imgur.com/IJ3qiTE.png",
+          "price": 89.99,
+          "rating": 4.7,
+          "id": 2
+        },
+        {
+          "name": "Filhotes Castradoso Gatos 1,5kg",
+          "cover": "https://i.imgur.com/R8n1zHs.png",
+          "price": 81.99,
+          "rating": 4.5,
+          "id": 3
+        },
+        {
+          "name": "Filhotes Castradoso Gatos 1,5kg",
+          "cover": "https://i.imgur.com/R8n1zHs.png",
+          "price": 81.99,
+          "rating": 4.5,
+          "id": 4
+        },
+        {
+          "name": "Light Weight Alimento Úmido Cães 85g",
+          "cover": "https://i.imgur.com/esFRlH3.png",
+          "price": 8.19,
+          "rating": 4,
+          "id": 5
+        },
+        {
+          "name": "Coat Care Alimento Úmido Cães 85g",
+          "cover": "https://i.imgur.com/0wZO7p1.png",
+          "price": 8.99,
+          "rating": 4.1,
+          "id": 6
+        },
+        {
+          "name": "Maxi Dermacomfort Cães 85g",
+          "cover": "https://i.imgur.com/gp5DXQ0.png",
+          "price": 202.39,
+          "rating": 4.5,
+          "id": 7
+        },
+        {
+          "name": "Maxi Dermacomfort Cães 85g",
+          "cover": "https://i.imgur.com/gp5DXQ0.png",
+          "price": 202.39,
+          "rating": 4.5,
+          "id": 8
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Lenovo",
+      "logo": "https://i.imgur.com/EuMMQjG.png",
+      "category": "$$$",
+      "rank": 2,
+      "products": [
+        {
+          "name": "Monello Select Gatos Filhotes Gatos 2kg",
+          "cover": "https://i.imgur.com/N0H11dl.png",
+          "price": 49.9,
+          "rating": 4,
+          "id": 0
+        },
+        {
+          "name": "Monello Select Gatos Adultos 2kg",
+          "cover": "https://i.imgur.com/98ka9Aq.png",
+          "price": 41.9,
+          "rating": 4,
+          "id": 1
+        },
+        {
+          "name": "Monello Select Gatos Castrados 2kg",
+          "cover": "https://i.imgur.com/cKlwpSf.png",
+          "price": 48,
+          "rating": 4.2,
+          "id": 2
+        },
+        {
+          "name": "Monello Select Cães Filhotes 2kg",
+          "cover": "https://i.imgur.com/rhD3NYx.png",
+          "price": 31,
+          "rating": 4.3,
+          "id": 3
+        },
+        {
+          "name": "Monello Select Cães Adultos Raças Pequenas 2kg",
+          "cover": "https://i.imgur.com/zESsRl5.png",
+          "price": 34.95,
+          "rating": 4,
+          "id": 4
+        },
+        {
+          "name": "Monello Select Cães Adultos 2kg",
+          "cover": "https://i.imgur.com/PluQtvR.png",
+          "price": 31.9,
+          "rating": 4.5,
+          "id": 5
+        },
+        {
+          "name": "Monello Select Cães Sênior 7+ 2kg",
+          "cover": "https://i.imgur.com/TWWVC5Y.png",
+          "price": 37.9,
+          "rating": 5,
+          "id": 6
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Acer",
+      "logo": "https://i.imgur.com/8UJWAQx.png",
+      "category": "$$",
+      "rank": 1,
+      "products": [
+        {
+          "name": "PremieR Cookie Cães Filhotes Pequeno Porte Coco e Avei 250kg",
+          "cover": "https://i.imgur.com/R1FTMJs.png",
+          "price": 14.9,
+          "rating": 4.5,
+          "id": 0
+        },
+        {
+          "name": "PremieR Cookie Cães Filhotes Frutas Vermelhas & Aveia 250kg",
+          "cover": "https://i.imgur.com/29IOndW.png",
+          "price": 14.99,
+          "rating": 4.6,
+          "id": 1
+        },
+        {
+          "name": "Premier Cookie 250kg",
+          "cover": "https://i.imgur.com/29IOndW.png",
+          "price": 14.99,
+          "rating": 4.4,
+          "id": 2
+        },
+        {
+          "name": "PremieR Seleção Natural Batata Doce Filhotes 10kg",
+          "cover": "https://i.imgur.com/UB81AMH.png",
+          "price": 153,
+          "rating": 4.7,
+          "id": 3
+        },
+        {
+          "name": "PremieR Nattu Mandioca 2,5kg",
+          "cover": "https://i.imgur.com/DvQvRR6.png",
+          "price": 81.9,
+          "rating": 4.2,
+          "id": 4
+        },
+        {
+          "name": "PremieR Cookie Fit sabor Frango com Batata Doce 250g",
+          "cover": "https://i.imgur.com/OFLkUwf.png",
+          "price": 22.99,
+          "rating": 4,
+          "id": 5
+        },
+        {
+          "name": "PremieR Cookie Cães Adultos Pequeno Porte Coco e Aveia 250g",
+          "cover": "https://i.imgur.com/Knswqcu.png",
+          "price": 14.9,
+          "rating": 4,
+          "id": 6
+        },
+        {
+          "name": "Golden Cookie 400g",
+          "cover": "https://i.imgur.com/V1pyfWa.png",
+          "price": 14.99,
+          "rating": 4.1,
+          "id": 7
+        },
+        {
+          "name": "Golden Cookie 400g",
+          "cover": "https://i.imgur.com/V1pyfWa.png",
+          "price": 14.99,
+          "rating": 4.1,
+          "id": 8
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Apple",
+      "logo": "https://i.imgur.com/k3Gy5t6.png",
+      "category": "$",
+      "rank": 2,
+      "products": [
+        {
+          "name": "Médios e Grandes 100kg",
+          "cover": "https://i.imgur.com/2eJtG3x.png",
+          "price": 16.9,
+          "rating": 4.5,
+          "id": 0
+        },
+        {
+          "name": "Minis e Pequenos 100kg",
+          "cover": "https://i.imgur.com/Wzx5ZyZ.png",
+          "price": 15.9,
+          "rating": 4.5,
+          "id": 1
+        },
+        {
+          "name": "Papita Todos os Tamanhos 100kg",
+          "cover": "https://i.imgur.com/Q22J97x.png",
+          "price": 16.9,
+          "rating": 4.4,
+          "id": 2
+        },
+        {
+          "name": "Filhotes Todos os Tamanhos sabor Frango e Leite 300kg",
+          "cover": "https://i.imgur.com/wXVUefW.png",
+          "price": 12.99,
+          "rating": 4.3,
+          "id": 3
+        },
+        {
+          "name": "Filhotes Todos os Tamanhos sabor Banana e leite 75kg",
+          "cover": "https://i.imgur.com/wXVUefW.png",
+          "price": 5.99,
+          "rating": 4.5,
+          "id": 4
+        },
+        {
+          "name": "Controle de Peso Todos os Tamanhos 100g",
+          "cover": "https://i.imgur.com/kPBmTui.png",
+          "price": 4.5,
+          "rating": 4.5,
+          "id": 5
+        },
+        {
+          "name": "Médios e Grandes 100g",
+          "cover": "https://i.imgur.com/RI3oYLr.png",
+          "price": 4.99,
+          "rating": 4.4,
+          "id": 6
+        },
+        {
+          "name": "Minis e Pequenos 100g",
+          "cover": "https://i.imgur.com/eWubKcM.png",
+          "price": 4.89,
+          "rating": 4.5,
+          "id": 7
+        },
+        {
+          "name": "Frango e Arroz Médios e Grandes Sem Corantes 100g",
+          "cover": "https://i.imgur.com/nZCL0YQ.png",
+          "price": 3.75,
+          "rating": 4,
+          "id": 8
+        },
+        {
+          "name": "Carne e Arroz Minis e Pequenos Sem Corantes 100g",
+          "cover": "https://i.imgur.com/o0skzdt.png",
+          "price": 5.99,
+          "rating": 4.2,
+          "id": 9
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Lg",
+      "logo": "https://i.imgur.com/6WglshK.png",
+      "category": "$$$",
+      "rank": 1,
+      "products": [
+        {
+          "name": "Pro Plan para Gatos Filhtoes 85g",
+          "cover": "https://i.imgur.com/PahGDxy.png",
+          "price": 4.39,
+          "rating": 4.3,
+          "id": 0
+        },
+        {
+          "name": "Pro Plan para Gatos Adultos 85g",
+          "cover": "https://i.imgur.com/4Fxrej0.png",
+          "price": 4.8,
+          "rating": 4.1,
+          "id": 1
+        },
+        {
+          "name": "Pro Plan para Gatos Maiores de 7 Anos 85g",
+          "cover": "https://i.imgur.com/YP6aNgk.png",
+          "price": 5.39,
+          "rating": 4,
+          "id": 2
+        },
+        {
+          "name": "Pro Plan para Gatos Reduced Calorie 85g",
+          "cover": "https://i.imgur.com/6ZlSAvv.png",
+          "price": 4.59,
+          "rating": 4.5,
+          "id": 3
+        },
+        {
+          "name": "Pro Plan para Gatos Sterelized 85g",
+          "cover": "https://i.imgur.com/6dsOXNw.png",
+          "price": 6,
+          "rating": 4.4,
+          "id": 4
+        },
+        {
+          "name": "Pro Plan para Gatos Urinary 85g",
+          "cover": "https://i.imgur.com/mR4m0EH.png",
+          "price": 3.99,
+          "rating": 4.2,
+          "id": 5
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Samsung",
+      "logo": "https://i.imgur.com/xhMmSob.png",
+      "category": "$",
+      "rank": 2,
+      "products": [
+        {
+          "name": "Sachê de Ração úmida para Gatos Filhotes WHISKAS® Sabor Carne ao Molho 85g",
+          "cover": "https://i.imgur.com/euKpTW1.png",
+          "price": 2.29,
+          "rating": 4.5,
+          "id": 0
+        },
+        {
+          "name": "Sachê de Ração úmida para Gatos Filhotes WHISKAS® Sabor Frango ao Molho 85g",
+          "cover": "https://i.imgur.com/dpYG1BZ.png",
+          "price": 2.29,
+          "rating": 4.5,
+          "id": 1
+        },
+        {
+          "name": "Sachê de Ração úmida para Gatos Filhotes WHISKAS® Sabor Carne Jelly 85g",
+          "cover": "https://i.imgur.com/v0pKXOs.png",
+          "price": 2.29,
+          "rating": 4.5,
+          "id": 2
+        },
+        {
+          "name": "Ração Seca para Gatos Filhotes WHISKAS® Sabor Carne e Leite 500g",
+          "cover": "https://i.imgur.com/2dxlv0u.png",
+          "price": 13.99,
+          "rating": 4.7,
+          "id": 3
+        }
+      ],
+      "id": 6
+    }
+  ]
+}

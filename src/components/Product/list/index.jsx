@@ -15,14 +15,14 @@ function ProductList({ product }) {
     <div className="col-12 product-list">
       <div className="row">
         <div className="col-3">
-          <img src={product.capa} className="img-fluid" alt={product.nome} />
+          <img src={product.cover} className="img-fluid" alt={product.name} />
         </div>
         <div className="col-6">
           <h6>
-            <label className="badge badge-primary">{product?.preco}</label>
+            <label className="badge badge-primary">{product?.price}</label>
           </h6>
           <small>
-            <b>{product.nome}</b>
+            <b>{product.name}</b>
           </small>
         </div>
         <div className="col-3">

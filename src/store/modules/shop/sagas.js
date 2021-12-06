@@ -1,21 +1,21 @@
 import { takeLatest, all, call, put } from 'redux-saga/effects';
 import types from './types';
 import api from '../../../services/axiosApi';
-import { setPetshops, setPetshop } from './actions';
+import { setShops, setShop } from './actions';
 
-export function* requestPetshops() {
-  const response = yield call(api.get, '/petshops');
+export function* requestShops() {
+  const response = yield call(api.get, '/shops');
   const res = response.data;
-  yield put(setPetshops(res.petshops));
+  yield put(setShops(res.shops));
 }
 
-export function* requestPetshop(payload) {
-  const response = yield call(api.get, `/petshops/${payload.id}`);
+export function* requestShop(payload) {
+  const response = yield call(api.get, `/shops/${payload.id}`);
   const res = response.data;
-  yield put(setPetshop(res.petshop));
+  yield put(setShop(res.shop));
 }
 
 export default all([
-  takeLatest(types.REQUEST_PETSHOPS, requestPetshops),
-  takeLatest(types.REQUEST_PETSHOP, requestPetshop)
+  takeLatest(types.REQUEST_SHOPS, requestShops),
+  takeLatest(types.REQUEST_SHOP, requestShop)
 ]);

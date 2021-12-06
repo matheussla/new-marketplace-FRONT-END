@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Registration from "./pages/registration";
 import Checkout from "./pages/checkout";
 import Home from "./pages/home";
-import AddProduct from "./pages/addProduct";
+import Shop from "./pages/shop";
 import OrderStatus  from "./pages/orderStatus";
 
 function Routes() {
@@ -15,7 +15,7 @@ function Routes() {
         <Route path="/orderStatus" exact component={OrderStatus} />
         <Route path="/registration" exact component={Registration} />
         <Route path="/checkout" exact component={Checkout} />
-        <Route path="/addProduct" exact component={AddProduct} />
+        <Route path="/shop/:id" exact component={Shop} />
     </Switch>
   </BrowserRouter>  
   );

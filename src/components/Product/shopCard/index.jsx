@@ -15,7 +15,7 @@ function ShopCard({ product }) {
   return (
     <div className="col-md-3 mb-5 petshopProduct">
       <div className="containProductImage d-flex pt-4 justify-content-center position-relative">
-        <img src={product.capa} alt={product.nome} />
+        <img src={product.cover} alt={product.name} />
         <button
           className={`btn btn-lg rounded-circle ${
             isOnShoppingCart ? "btn-primary" : "btn-secondary"
@@ -26,10 +26,10 @@ function ShopCard({ product }) {
         </button>
       </div>
       <div className="d-flex justify-content-between w-100 pt-2">
-        <label className="badge">R$ {product.preco}</label>
+        <label className="badge">R$ {product.price.toFixed(2)}</label>
       </div>
       <div className="title pt-2">
-        <b>{product.nome}</b>
+        <b>{product.name}</b>
       </div>
     </div>
   );
