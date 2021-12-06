@@ -5,7 +5,7 @@ import "./style.scss";
 function Checkout() {
   const { cart } = useSelector((state) => state.shop);
   const total = cart
-    .map((e) => e.preco)
+    .map((e) => e.price)
     .reduce((a, b) => {
       return a + b;
     }, 0);

@@ -6,6 +6,7 @@ import Checkout from "./pages/checkout";
 import Home from "./pages/home";
 import Shop from "./pages/shop";
 import OrderStatus  from "./pages/orderStatus";
+import Confirmation  from "./pages/confirmation";
 
 function Routes() {
   return (
@@ -16,6 +17,7 @@ function Routes() {
         <Route path="/registration" exact component={Registration} />
         <Route path="/checkout" exact component={Checkout} />
         <Route path="/shop/:id" exact component={Shop} />
+        <Route path="/confirmation" exact component={Confirmation} />
     </Switch>
   </BrowserRouter>  
   );
