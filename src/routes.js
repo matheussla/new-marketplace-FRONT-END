@@ -11,6 +11,7 @@ import Confirmation  from "./pages/confirmation";
 function Routes() {
   return (
   <BrowserRouter>  
+    <Sidebar />
     <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/orderStatus" exact component={OrderStatus} />

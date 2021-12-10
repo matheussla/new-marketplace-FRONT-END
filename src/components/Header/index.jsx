@@ -30,7 +30,7 @@ function Header({ hideCart, hideTrack }) {
               className="btn btn-secondary ml-0 bt-space"
             >
               <span className="mdi mdi-magnify pr-1"></span>
-              <b>Rastrear</b>
+              <b> Rastrear</b>
             </Link>
           )}
           
@@ -42,7 +42,7 @@ function Header({ hideCart, hideTrack }) {
               }}
             >
               <span className="mdi mdi-cart pr-1"></span>
-              <b>{productsInCart} Itens</b>
+              <b> {productsInCart} Itens</b>
             </button>
           )}
         </div>

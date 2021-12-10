@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import Product from "../../components/Product/list";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import "./style.scss";
 function Checkout() {
   const { cart } = useSelector((state) => state.shop);
@@ -10,7 +11,7 @@ function Checkout() {
       return a + b;
     }, 0);
   return (
-    <div className="h-100">
+    <div className="container-fluid h-100 bg-primary">
       <Header hideTrack/>
       <div className="container mt-4">
         <div className="row">
@@ -113,9 +114,9 @@ function Checkout() {
                 <h3>R$ {total}</h3>
               </div>
               <div className="col-12">
-                <div className="btn btn-block w-100 btn-lg btn-primary">
-                  Finalizar Compra
-                </div>
+                <Link to="/confirmation" className="btn btn-block w-100 btn-lg btn-secondary">
+                Finalizar Compra
+                </Link>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ import "./style.scss";
 
 function Shop() {
   const dispatch = useDispatch();
-  const { shop } = useSelector((state) => state.shop);
+  const { shop } = useSelector((state) => state);
 
   const { id } = useParams();
 

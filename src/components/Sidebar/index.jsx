@@ -8,7 +8,7 @@ function Sidebar() {
   const [opened, setOpened] = useState(false);
   const { cart } = useSelector((state) => state.shop);
   const total =
-    cart.length > 0 ? cart.map((e) => e.preco).reduce((a, b) => a + b) : 0;
+    cart.length > 0 ? cart.map((e) => e.price).reduce((a, b) => a + b) : 0;
   useEffect(() => {
     window.addEventListener("openCart", () => {
       setOpened(true);
@@ -38,7 +38,7 @@ function Sidebar() {
           </div>
           <Link
             to="/checkout"
-            className="btn btn-block btn-lg btn-primary rounded-0 h-50"
+            className="btn btn-block btn-lg btn-secondary rounded-0 h-50"
           >
             Finalizar Compra
           </Link>

@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import MarketCard from "../../components/MarketCard";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { requestShops } from "../../store/modules/shop/actions";
@@ -6,7 +7,7 @@ import "./style.scss"
 
 function Home() {
   const dispatch = useDispatch();
-  const { shops } = useSelector((state) => state.shops);
+  const { shops } = useSelector((state) => state);
 
   useEffect(() => {
     dispatch(requestShops());
@@ -23,7 +24,12 @@ function Home() {
         <h1 className="text-center">New Marketplace</h1>
         <br/>
         <div className="child-box col-12 border-radius">
-          
+              <div className="row">
+                {shops &&
+                  shops.map((p) => (
+                    <MarketCard key={p._id} produto={p} />
+                  ))}
+              </div>
         </div>
       </div>
      </div>
