@@ -17,8 +17,8 @@ function Shop() {
   }, []);
 
   return (
-    <div className="h-100 shop">
-      <Header />
+    <div className="h-100 shop bg-primary">
+      <Header hideTrack/>
       <div className="container">
         {shop && (
           <div className="row">
