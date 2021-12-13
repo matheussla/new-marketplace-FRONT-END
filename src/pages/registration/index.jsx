@@ -1,12 +1,10 @@
 import { useState } from "react";
 import Business from '../../assets/business.png';
-import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
 
 function Registration() {
-  const dispatch = useDispatch();
   const [customer, setCustomer] = useState({
     external_id: new Date().getTime().toString(),
     name: "",

@@ -11,6 +11,7 @@ function Home() {
 
   useEffect(() => {
     dispatch(requestShops());
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   console.log("home", shops)

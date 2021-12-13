@@ -7,7 +7,7 @@ import "./style.scss";
 function Checkout(props) {
 
   const customer = props.location.state;
-
+  console.log(customer);
   const { cart } = useSelector((state) => state.shop);
   const total = cart
     .map((e) => e.price)
