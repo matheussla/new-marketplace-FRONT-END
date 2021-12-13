@@ -7,12 +7,13 @@ import "./style.scss"
 
 function Home() {
   const dispatch = useDispatch();
-  const { shops } = useSelector((state) => state);
+  const { shops } = useSelector((state) => state.shop);
 
   useEffect(() => {
     dispatch(requestShops());
   }, []);
 
+  console.log("home", shops)
   return (
     <div className="container-fluid h-100 bg-primary">
     <Header />
@@ -27,7 +28,7 @@ function Home() {
               <div className="row">
                 {shops &&
                   shops.map((p) => (
-                    <MarketCard key={p._id} produto={p} />
+                    <MarketCard key={p._id} market={p} />
                   ))}
               </div>
         </div>

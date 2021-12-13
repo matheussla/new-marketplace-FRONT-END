@@ -4,15 +4,14 @@ import api from '../../../services/axiosApi';
 import { setShops, setShop } from './actions';
 
 export function* requestShops() {
-  const response = yield call(api.get, '/shops');
-  const res = response.data;
-  yield put(setShops(res.shops));
+  const { data } = yield call(api.get, '/shops');
+  console.log("-----------", data)
+  yield put(setShops(data));
 }
 
 export function* requestShop(payload) {
-  const response = yield call(api.get, `/shops/${payload.id}`);
-  const res = response.data;
-  yield put(setShop(res.shop));
+  const { data } = yield call(api.get, `/shop/${payload.id}`);
+  yield put(setShop(data));
 }
 
 export default all([

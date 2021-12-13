@@ -37,7 +37,7 @@ function Sidebar() {
             <h3>R$ {total.toFixed(2)}</h3>
           </div>
           <Link
-            to="/checkout"
+            to="/registration"
             className="btn btn-block btn-lg btn-secondary rounded-0 h-50"
           >
             Finalizar Compra

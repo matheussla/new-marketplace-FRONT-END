@@ -1,20 +1,9 @@
-import { useEffect } from "react";
-import { useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
 import Header from "../../components/Header";
 import ShopCard from "../../components/Product/shopCard";
-import { requestShop } from "../../store/modules/shop/actions";
 import "./style.scss";
 
-function Shop() {
-  const dispatch = useDispatch();
-  const { shop } = useSelector((state) => state);
-
-  const { id } = useParams();
-
-  useEffect(() => {
-    dispatch(requestShop(id));
-  }, []);
+function Shop(props) {
+  const shop = props.location.state;
 
   return (
     <div className="h-100 shop bg-primary">
@@ -42,7 +31,7 @@ function Shop() {
               <div className="row">
                 {shop &&
                   shop.products.map((p) => (
-                    <ShopCard key={p._id} produto={p} />
+                    <ShopCard key={p._id} product={p} />
                   ))}
               </div>
             </div>

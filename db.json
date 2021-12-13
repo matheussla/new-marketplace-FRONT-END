@@ -139,56 +139,56 @@
     },
     {
       "name": "Lenovo",
-      "logo": "https://i.imgur.com/EuMMQjG.png",
+      "logo": "https://www.gizmochina.com/wp-content/uploads/2016/11/Lenovo-shipped-14-million-handsets-during-its-fiscal-second-quarter-up-25-sequentially.png",
       "category": "$$$",
       "rank": 2,
       "products": [
         {
-          "name": "Monello Select Gatos Filhotes Gatos 2kg",
-          "cover": "https://i.imgur.com/N0H11dl.png",
-          "price": 49.9,
+          "name": "Notebook",
+          "cover": "https://www.lenovo.com/medias/S145-1-INTEL.png?context=bWFzdGVyfHJvb3R8OTc0Mzh8aW1hZ2UvcG5nfGgxNS9oMTUvMTE3ODExOTEzMDMxOTgucG5nfDIzNjAzYWJjMTA3NjY0NWJiYTBlOTg4NDIwM2U5ZTJmZmE5ZGQwNjVlMmNmMTI0NzFkMGZmYTllY2IyNzQ3MTc",
+          "price": 2000.9,
           "rating": 4,
           "id": 0
         },
         {
-          "name": "Monello Select Gatos Adultos 2kg",
-          "cover": "https://i.imgur.com/98ka9Aq.png",
-          "price": 41.9,
+          "name": "Notebook",
+          "cover": "https://www.lenovo.com/medias/S145-1-INTEL.png?context=bWFzdGVyfHJvb3R8OTc0Mzh8aW1hZ2UvcG5nfGgxNS9oMTUvMTE3ODExOTEzMDMxOTgucG5nfDIzNjAzYWJjMTA3NjY0NWJiYTBlOTg4NDIwM2U5ZTJmZmE5ZGQwNjVlMmNmMTI0NzFkMGZmYTllY2IyNzQ3MTc",
+          "price": 3000.9,
           "rating": 4,
           "id": 1
         },
         {
-          "name": "Monello Select Gatos Castrados 2kg",
-          "cover": "https://i.imgur.com/cKlwpSf.png",
-          "price": 48,
+          "name": "Notebook",
+          "cover": "https://www.lenovo.com/medias/lenovo-laptop-legion-5-15-intel-series-hero.png?context=bWFzdGVyfHJvb3R8NzYyMDZ8aW1hZ2UvcG5nfGhjZC9oZmMvMTA4NDQ2MjU4Mjk5MTgucG5nfDFjY2Y2OGI3YjUzNWQwNzk1NDY3M2ZhNzM1MmQ3ZTM1M2Q2Mzk4ZjQwZmE3N2QwYzU4ZWNjNTVjYzRmM2U5MjA",
+          "price": 2500.0,
           "rating": 4.2,
           "id": 2
         },
         {
-          "name": "Monello Select Cães Filhotes 2kg",
-          "cover": "https://i.imgur.com/rhD3NYx.png",
-          "price": 31,
+          "name": "Notebook",
+          "cover": "https://www.lenovo.com/medias/lenovo-laptop-legion-5-15-intel-series-hero.png?context=bWFzdGVyfHJvb3R8NzYyMDZ8aW1hZ2UvcG5nfGhjZC9oZmMvMTA4NDQ2MjU4Mjk5MTgucG5nfDFjY2Y2OGI3YjUzNWQwNzk1NDY3M2ZhNzM1MmQ3ZTM1M2Q2Mzk4ZjQwZmE3N2QwYzU4ZWNjNTVjYzRmM2U5MjA",
+          "price": 12000.0,
           "rating": 4.3,
           "id": 3
         },
         {
-          "name": "Monello Select Cães Adultos Raças Pequenas 2kg",
-          "cover": "https://i.imgur.com/zESsRl5.png",
-          "price": 34.95,
+          "name": "Notebook",
+          "cover": "https://www.lenovo.com/medias/lenovo-laptop-legion-5-15-intel-series-hero.png?context=bWFzdGVyfHJvb3R8NzYyMDZ8aW1hZ2UvcG5nfGhjZC9oZmMvMTA4NDQ2MjU4Mjk5MTgucG5nfDFjY2Y2OGI3YjUzNWQwNzk1NDY3M2ZhNzM1MmQ3ZTM1M2Q2Mzk4ZjQwZmE3N2QwYzU4ZWNjNTVjYzRmM2U5MjA",
+          "price": 5000.0,
           "rating": 4,
           "id": 4
         },
         {
-          "name": "Monello Select Cães Adultos 2kg",
-          "cover": "https://i.imgur.com/PluQtvR.png",
-          "price": 31.9,
+          "name": "Notebook",
+          "cover": "https://www.lenovo.com/medias/S145-1-INTEL.png?context=bWFzdGVyfHJvb3R8OTc0Mzh8aW1hZ2UvcG5nfGgxNS9oMTUvMTE3ODExOTEzMDMxOTgucG5nfDIzNjAzYWJjMTA3NjY0NWJiYTBlOTg4NDIwM2U5ZTJmZmE5ZGQwNjVlMmNmMTI0NzFkMGZmYTllY2IyNzQ3MTc",
+          "price": 4500.0,
           "rating": 4.5,
           "id": 5
         },
         {
-          "name": "Monello Select Cães Sênior 7+ 2kg",
-          "cover": "https://i.imgur.com/TWWVC5Y.png",
-          "price": 37.9,
+          "name": "Notebook",
+          "cover": "https://www.lenovo.com/medias/S145-1-INTEL.png?context=bWFzdGVyfHJvb3R8OTc0Mzh8aW1hZ2UvcG5nfGgxNS9oMTUvMTE3ODExOTEzMDMxOTgucG5nfDIzNjAzYWJjMTA3NjY0NWJiYTBlOTg4NDIwM2U5ZTJmZmE5ZGQwNjVlMmNmMTI0NzFkMGZmYTllY2IyNzQ3MTc",
+          "price": 2500.0,
           "rating": 5,
           "id": 6
         }

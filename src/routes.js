@@ -17,7 +17,7 @@ function Routes() {
         <Route path="/orderStatus" exact component={OrderStatus} />
         <Route path="/registration" exact component={Registration} />
         <Route path="/checkout" exact component={Checkout} />
-        <Route path="/shop/:id" exact component={Shop} />
+        <Route path="/shop" exact component={Shop} />
         <Route path="/confirmation" exact component={Confirmation} />
     </Switch>
   </BrowserRouter>  

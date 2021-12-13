@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Business from '../../assets/business.png';
 import { useDispatch } from "react-redux";
-import { setCustomer as setStateCustomer } from "../../store/modules/shop/actions";
+import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
 
@@ -15,12 +15,10 @@ function Registration() {
     phone_numbers: "",
     password: "",
   });
-  const goToCheckout = function () {
-    dispatch(setStateCustomer(customer));
-  };
+
   return (
     <div className="container-fluid h-100 bg-primary">
-      <Header hideCart />
+      <Header hideCart hideTrack/>
      <br/>
      <br/>
      <br/>
@@ -67,14 +65,12 @@ function Registration() {
                 setCustomer({ ...customer, password: [e.target.value] });
               }}
               />
-
+              <Link to={{ pathname: "/checkout", state: customer }} >
               <button 
-               onClick={() => {
-                goToCheckout();
-               }}
               className="btn btn-lg btn-block btn-secondary">
-                Salvar
+                Finalizar Compra
               </button>
+              </Link>
           </div>
           </div>
       </div>

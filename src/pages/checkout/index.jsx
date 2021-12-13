@@ -1,15 +1,25 @@
+import { useState } from "react";
 import Header from "../../components/Header";
 import Product from "../../components/Product/list";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import "./style.scss";
-function Checkout() {
+function Checkout(props) {
+
+  const customer = props.location.state;
+
   const { cart } = useSelector((state) => state.shop);
   const total = cart
     .map((e) => e.price)
     .reduce((a, b) => {
       return a + b;
     }, 0);
+
+  const [card, setCard] = useState({
+    number: "",
+    cvv: "",
+    validate: ""
+  });
   return (
     <div className="container-fluid h-100 bg-primary">
       <Header hideTrack/>
@@ -89,6 +99,10 @@ function Checkout() {
                   type="text"
                   placeholder="Número do Cartão"
                   className="form-control form-control-lg"
+                  maxlength="16"
+                  onChange={(e) => {
+                    setCard({ ...card, validate: e.target.value });
+                  }}
                 />
               </div>
             </div>
@@ -98,6 +112,10 @@ function Checkout() {
                   type="text"
                   placeholder="Validade"
                   className="form-control form-control-lg"
+                  maxlength="4"
+                  onChange={(e) => {
+                    setCard({ ...card, number: e.target.value });
+                  }}
                 />
               </div>
               <div className="col-6">
@@ -105,6 +123,10 @@ function Checkout() {
                   type="text"
                   placeholder="CVV"
                   className="form-control form-control-lg"
+                  maxlength="3"
+                  onChange={(e) => {
+                    setCard({ ...card, cvv: e.target.value });
+                  }}
                 />
               </div>
             </div>
@@ -114,7 +136,7 @@ function Checkout() {
                 <h3>R$ {total}</h3>
               </div>
               <div className="col-12">
-                <Link to="/confirmation" className="btn btn-block w-100 btn-lg btn-secondary">
+                <Link to={{ pathname: "/confirmation", state: card }} className="btn btn-block w-100 btn-lg btn-secondary">
                 Finalizar Compra
                 </Link>
               </div>

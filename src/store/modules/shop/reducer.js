@@ -24,11 +24,6 @@ function shop(state = INITIAL_STATE, action) {
         draft.shop = action.shop;
       });
     }
-    case types.SET_PETSHOPS_MAP_SELECTED: {
-      return produce(state, (draft) => {
-        draft.petshopMapSelected = action.petshop;
-      });
-    }
     case types.TOGGLE_CART_PRODUCT: {
       return produce(state, (draft) => {
         const index = draft.cart.findIndex((p) => p._id === action.product._id);
@@ -39,12 +34,6 @@ function shop(state = INITIAL_STATE, action) {
           draft.cart.splice(index, 1);
         }
 
-      });
-    }
-
-    case types.SET_MAP_CENTER: {
-      return produce(state, (draft) => {
-        draft.mapCenter = action.location;
       });
     }
     default: {
