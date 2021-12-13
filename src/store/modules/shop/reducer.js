@@ -26,8 +26,7 @@ function shop(state = INITIAL_STATE, action) {
     }
     case types.TOGGLE_CART_PRODUCT: {
       return produce(state, (draft) => {
-        const index = draft.cart.findIndex((p) => p._id === action.product._id);
-
+        const index = state.cart.findIndex((p) => p.id === action.product.id);
         if (index === -1) {
           draft.cart.push(action.product);
         } else {

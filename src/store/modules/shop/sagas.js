@@ -5,7 +5,6 @@ import { setShops, setShop } from './actions';
 
 export function* requestShops() {
   const { data } = yield call(api.get, '/shops');
-  console.log("-----------", data)
   yield put(setShops(data));
 }
 

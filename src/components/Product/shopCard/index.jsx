@@ -6,7 +6,7 @@ function ShopCard({ product }) {
   const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.shop);
   const isOnShoppingCart =
-    cart.findIndex((p) => p._id === product._id) === -1 ? true : false;
+    cart.findIndex((p) => p.id === product.id) === -1 ? true : false;
 
   const handleToggleShoppingCart = () => {
     dispatch(toggleCartProduct(product));

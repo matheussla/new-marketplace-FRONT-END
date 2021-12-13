@@ -14,7 +14,6 @@ function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log("home", shops)
   return (
     <div className="container-fluid h-100 bg-primary">
     <Header />
@@ -23,7 +22,7 @@ function Home() {
      <br/>
      <div className="container">
      <div className="principal-box col-12 border-radius">
-        <h1 className="text-center">New Marketplace</h1>
+        <h1 className="text-center">Lojas</h1>
         <br/>
         <div className="child-box col-12 border-radius">
               <div className="row">
