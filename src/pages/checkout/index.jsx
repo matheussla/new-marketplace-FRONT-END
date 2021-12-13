@@ -140,7 +140,7 @@ function Checkout(props) {
             <div className="row mt-4">
               <div className="col-12  d-flex justify-content-between align-items-center">
                 <b>Total</b>
-                <h3>R$ {total}</h3>
+                <h3>R$ {total.toFixed(2)}</h3>
               </div>
               <div className="col-12">
                 <Link to={{ pathname: "/confirmation", state: card }} className="btn btn-block w-100 btn-lg btn-secondary">
