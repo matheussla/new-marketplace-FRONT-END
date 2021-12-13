@@ -34,6 +34,7 @@ function Registration() {
               type="text" 
               className="form-control form-control-lg mb-3"
               placeholder="Nome completo"
+              maxlength="35"
               onChange={(e) => {
                 setCustomer({ ...customer, name: e.target.value });
               }}
@@ -43,6 +44,7 @@ function Registration() {
               type="email" 
               className="form-control form-control-lg mb-3"
               placeholder="E-mail"
+              maxlength="35"
               onChange={(e) => {
                 setCustomer({ ...customer, email: e.target.value });
               }}
@@ -52,6 +54,7 @@ function Registration() {
               type="text" 
               className="form-control form-control-lg mb-3"
               placeholder="Telefone"
+              maxlength="9"
               onChange={(e) => {
                 setCustomer({ ...customer, phone_number: [e.target.value] });
               }}

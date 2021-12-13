@@ -33,6 +33,7 @@ function Checkout(props) {
                   type="text"
                   placeholder="CEP"
                   className="form-control form-control-lg"
+                  maxlength="9"
                 />
               </div>
             </div>
@@ -42,6 +43,7 @@ function Checkout(props) {
                   type="text"
                   placeholder="Cidade"
                   className="form-control form-control-lg"
+                  maxlength="20"
                 />
               </div>
               <div className="col-6">
@@ -49,6 +51,7 @@ function Checkout(props) {
                   type="text"
                   placeholder="Logradouro"
                   className="form-control form-control-lg"
+                  maxlength="10"
                 />
               </div>
             </div>
@@ -58,6 +61,7 @@ function Checkout(props) {
                   type="text"
                   placeholder="Número"
                   className="form-control form-control-lg"
+                  maxlength="5"
                 />
               </div>
               <div className="col-5">
@@ -72,6 +76,7 @@ function Checkout(props) {
                   type="text"
                   placeholder="UF"
                   className="form-control form-control-lg"
+                  maxlength="2"
                 />
               </div>
             </div>
@@ -81,6 +86,7 @@ function Checkout(props) {
                   type="text"
                   placeholder="Bairro"
                   className="form-control form-control-lg"
+                  maxlength="20"
                 />
               </div>
               <div className="col-6">
@@ -88,6 +94,7 @@ function Checkout(props) {
                   type="text"
                   placeholder="Complemento"
                   className="form-control form-control-lg"
+                  maxlength="20"
                 />
               </div>
             </div>
