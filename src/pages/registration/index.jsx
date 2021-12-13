@@ -22,7 +22,8 @@ function Registration() {
      <br/>
       <div className="row">
         <div className="col-6 text-center my-auto">
-          <img src={Business} />
+          <img src={Business}
+          alt={`${Business}`} />
         </div>
         <div className="col-6">
           <div className="box col-6">
