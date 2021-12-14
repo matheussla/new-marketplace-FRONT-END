@@ -11,11 +11,11 @@ function Confirmation(props) {
     return <h1 className="h1-error">Cartão Inválido</h1>
   }
   
-  const message = () => {
-    if(validCard(card) ===  "Sucesso!"){
-      return "Recebemos seu Pedido!"
+  const message = (card) => {
+    if(card.number && card.cvv && card.validate){
+      return <p className="p">Recebemos seu Pedido!</p>
     }
-    return "Erro ao realizar seu pedido"
+    return <p className="p">Erro ao realizar seu pedido</p>
   }
 
   return (
@@ -24,7 +24,7 @@ function Confirmation(props) {
       <div className="body" >
         <div class="card">
           {validCard(card)}
-          <p className="p">{message()}</p>
+          {message(card)}
         </div>
 
       </div>

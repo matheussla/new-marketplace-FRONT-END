@@ -26,6 +26,10 @@ function Checkout(props) {
       <div className="container mt-4">
         <div className="row">
           <div className="col-6">
+            <h5>{customer.name}</h5>
+            <br/>
+            <h6>{customer.email}</h6>
+            <br/>
             <span className="section-title">Dados de Entrega</span>
             <div className="row mb-3">
               <div className="col-12">

@@ -11,7 +11,6 @@ function Registration() {
     type: "buyer",
     email: "",
     phone_numbers: "",
-    password: "",
   });
 
   return (
@@ -59,14 +58,6 @@ function Registration() {
               }}
               />
 
-              <input 
-              type="password" 
-              className="form-control form-control-lg mb-3"
-              placeholder="Senha"
-              onChange={(e) => {
-                setCustomer({ ...customer, password: [e.target.value] });
-              }}
-              />
               <Link to={{ pathname: "/checkout", state: customer }} >
               <button 
               className="btn btn-lg btn-block btn-secondary">
