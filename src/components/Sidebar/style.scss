@@ -6,7 +6,7 @@
 
   .products {
     height: calc(100% - 190px);
-    overflow: auto;
+    overflow: hidden;
     align-content: flex-start;
   }
 }
